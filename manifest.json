@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto Skip Ads",
+  "version": "1.0.0",
+  "description": "Automatically clicks YouTube's Skip Ad button when it becomes available.",
+  "permissions": ["debugger"],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

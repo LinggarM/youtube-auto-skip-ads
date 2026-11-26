@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- YouTube Red Background with rounded corners -->
+  <rect width="128" height="128" rx="28" fill="#FF0000"/>
+  
+  <!-- Fast Forward / Skip Symbol (White) -->
+  <polygon points="28,34 68,64 28,94" fill="#FFFFFF"/>
+  <polygon points="64,34 104,64 64,94" fill="#FFFFFF"/>
+</svg>
